@@ -28,17 +28,26 @@ The **Webtoon Management API** allows users to manage a collection of webtoons, 
 
 ## Installation
 1. Clone the repository:
+   ```bash
    git clone https://github.com/yourusername/yourproject.git
+   ```
 2. Navigate to the project directory:
+   ```bash
    cd yourproject
+   ```
 3. Install the dependencies:
+   ```bash
    npm install
+   ```
 4. Set up your MongoDB connection string in a `.env` file (or directly in the code) for local development:
+   ```bash
    MONGODB_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/content?retryWrites=true&w=majority
-
+   ```
 ## Usage
 1. Start the server:
+   ```
    npm start
+   ```
 
 2. The API will be available at `http://localhost:3001`.
 
